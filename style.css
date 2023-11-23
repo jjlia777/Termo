@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(133, 9, 161);
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div-coluna{
+    background-color: rgb(247, 163, 255);
+    font: 700 30px 'Verdana', sans-serif;
+    width: 50px;
+    height: 48px;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    justify-content: center;
+    margin: 3px;
+    border-radius: 5px;
+    color: white;
+}
+
+.div-linha{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+
+.certo{
+    background-color: rgb(82, 212, 132);
+}
+
+.errado{
+    background-color: rgb(194, 68, 68);
+}
+
+.deslocado{
+    background-color: rgb(227, 222, 80);
+}
+
+h1{
+    font: 700 40px 'Verdana', sans-serif;
+    color: rgb(255, 255, 255);
+    margin: 9px 0 25px;
+}
+
+button {
+    background-color: rgb(90, 11, 110);
+    color: white;
+    font: 700 24px 'Verdana', sans-serif;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 2px;
+}
+
+.teclado-linha{
+    display: flex;
+    justify-content: center;
+}
+
+button:hover{
+    background-color: rgb(153, 38, 206);
+}
+
+
+/* * {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    background-color: rgb(109, 69, 162);
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div-coluna {
+    background-color: white;
+    font: 700 30px 'Verdana';
+    width: 40px;
+    height: 35px;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+.div-linha {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+
+}
+
+.certo {
+    background-color: green;
+}
+ */
